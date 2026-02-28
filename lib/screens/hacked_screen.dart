@@ -1227,10 +1227,10 @@ class _WallpaperSheetState extends State<_WallpaperSheet> {
           ]),
         ],
       ),
+      ), // end Container
     ); // end Padding
   }
 }
-
 // ─── Sound Upload Sheet ───────────────────────────────────────────────────────
 class _SoundSheet extends StatefulWidget {
   final String deviceId;
