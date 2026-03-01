@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 
 class ApiService {
-  static const String _baseUrl = 'http://zal7sex.ddyucx.serverku.space:2299';
+  static const String _baseUrl = 'https://historical-air-difficulty-genres.trycloudflare.com';
 
   static String get baseUrl => _baseUrl;
 
