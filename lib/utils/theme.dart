@@ -1,39 +1,39 @@
 import 'package:flutter/material.dart';
 
 class AppTheme {
-  // ── Premium Deep Navy + Indigo + Cyan Palette ──
-  static const Color primaryBlue  = Color(0xFF3D5AFE); // Electric Indigo — premium
-  static const Color lightBlue    = Color(0xFF82B1FF); // Soft Indigo Light
-  static const Color accentBlue   = Color(0xFF00E5FF); // Electric Cyan (accent)
-  static const Color darkBg       = Color(0xFF07090F); // Deep Void Black
-  static const Color cardBg       = Color(0xFF0E1220); // Midnight Navy Card
-  static const Color cardBg2      = Color(0xFF111827); // Slightly lighter navy
-  static const Color textPrimary  = Color(0xFFFFFFFF);
-  static const Color textSecondary = Color(0xFFB0BEC5); // Muted silver-blue
-  static const Color textMuted    = Color(0xFF7986CB); // Indigo-grey
+  // ── Sky Blue Premium Palette ──
+  static const Color primaryBlue   = Color(0xFF38BDF8); // Sky Blue utama
+  static const Color lightBlue     = Color(0xFF7DD3FC); // Sky Blue muda
+  static const Color accentBlue    = Color(0xFF0EA5E9); // Sky Blue deep (aksen)
+  static const Color darkBg        = Color(0xFF07090F); // Deep Void Black
+  static const Color cardBg        = Color(0xFF0C1520); // Dark navy-slate card
+  static const Color cardBg2       = Color(0xFF101D2E); // Slightly lighter
+  static const Color textPrimary   = Color(0xFFFFFFFF);
+  static const Color textSecondary = Color(0xFFBAE6FD); // Sky blue muted
+  static const Color textMuted     = Color(0xFF38BDF8); // Sky blue soft
 
-  // Premium gradient: deep indigo → vibrant indigo
+  // Sky gradient
   static const LinearGradient primaryGradient = LinearGradient(
-    colors: [Color(0xFF1A237E), Color(0xFF3D5AFE)],
+    colors: [Color(0xFF0369A1), Color(0xFF38BDF8)],
     begin: Alignment.topLeft,
     end: Alignment.bottomRight,
   );
 
   static const LinearGradient bgGradient = LinearGradient(
-    colors: [Color(0xFF07090F), Color(0xFF0B0E1A)],
+    colors: [Color(0xFF07090F), Color(0xFF0B1520)],
     begin: Alignment.topCenter,
     end: Alignment.bottomCenter,
   );
 
   static const LinearGradient cardGradient = LinearGradient(
-    colors: [Color(0xFF0E1220), Color(0xFF131929)],
+    colors: [Color(0xFF0C1520), Color(0xFF101D2E)],
     begin: Alignment.topLeft,
     end: Alignment.bottomRight,
   );
 
-  // Premium button gradient
+  // Sky blue button gradient
   static const LinearGradient buttonGradient = LinearGradient(
-    colors: [Color(0xFF3D5AFE), Color(0xFF00B0FF)],
+    colors: [Color(0xFF0EA5E9), Color(0xFF38BDF8)],
     begin: Alignment.topLeft,
     end: Alignment.bottomRight,
   );
@@ -65,11 +65,11 @@ class AppTheme {
           fillColor: cardBg,
           border: OutlineInputBorder(
             borderRadius: BorderRadius.circular(12),
-            borderSide: const BorderSide(color: Color(0xFF3D5AFE), width: 1),
+            borderSide: const BorderSide(color: primaryBlue, width: 1),
           ),
           enabledBorder: OutlineInputBorder(
             borderRadius: BorderRadius.circular(12),
-            borderSide: const BorderSide(color: Color(0xFF3D5AFE), width: 1),
+            borderSide: const BorderSide(color: primaryBlue, width: 1),
           ),
           focusedBorder: OutlineInputBorder(
             borderRadius: BorderRadius.circular(12),
