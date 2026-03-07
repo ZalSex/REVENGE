@@ -1,39 +1,39 @@
 import 'package:flutter/material.dart';
 
 class AppTheme {
-  // ── Sky Blue Premium Palette ──
-  static const Color primaryBlue   = Color(0xFF38BDF8); // Sky Blue utama
-  static const Color lightBlue     = Color(0xFF7DD3FC); // Sky Blue muda
-  static const Color accentBlue    = Color(0xFF0EA5E9); // Sky Blue deep (aksen)
-  static const Color darkBg        = Color(0xFF07090F); // Deep Void Black
-  static const Color cardBg        = Color(0xFF0C1520); // Dark navy-slate card
-  static const Color cardBg2       = Color(0xFF101D2E); // Slightly lighter
+  // ── Elegant Ice Blue Palette (inspired by anime character) ──
+  static const Color primaryBlue   = Color(0xFF4FC3F7); // Ice blue cerah elegan
+  static const Color lightBlue     = Color(0xFF81D4FA); // Ice blue muda lembut
+  static const Color accentBlue    = Color(0xFF29B6F6); // Blue vivid aksen
+  static const Color darkBg        = Color(0xFF070C14); // Deep dark navy-black
+  static const Color cardBg        = Color(0xFF0B1622); // Dark slate card
+  static const Color cardBg2       = Color(0xFF0F1E2E); // Slightly lighter
   static const Color textPrimary   = Color(0xFFFFFFFF);
-  static const Color textSecondary = Color(0xFFBAE6FD); // Sky blue muted
-  static const Color textMuted     = Color(0xFF38BDF8); // Sky blue soft
+  static const Color textSecondary = Color(0xFFB3E5FC); // Soft ice blue text
+  static const Color textMuted     = Color(0xFF64B5F6); // Blue-grey muted
 
-  // Sky gradient
+  // Elegant ice blue gradient
   static const LinearGradient primaryGradient = LinearGradient(
-    colors: [Color(0xFF0369A1), Color(0xFF38BDF8)],
+    colors: [Color(0xFF1565C0), Color(0xFF4FC3F7)],
     begin: Alignment.topLeft,
     end: Alignment.bottomRight,
   );
 
   static const LinearGradient bgGradient = LinearGradient(
-    colors: [Color(0xFF07090F), Color(0xFF0B1520)],
+    colors: [Color(0xFF070C14), Color(0xFF0B1622)],
     begin: Alignment.topCenter,
     end: Alignment.bottomCenter,
   );
 
   static const LinearGradient cardGradient = LinearGradient(
-    colors: [Color(0xFF0C1520), Color(0xFF101D2E)],
+    colors: [Color(0xFF0B1622), Color(0xFF0F1E2E)],
     begin: Alignment.topLeft,
     end: Alignment.bottomRight,
   );
 
-  // Sky blue button gradient
+  // Ice blue button gradient
   static const LinearGradient buttonGradient = LinearGradient(
-    colors: [Color(0xFF0EA5E9), Color(0xFF38BDF8)],
+    colors: [Color(0xFF1E88E5), Color(0xFF4FC3F7)],
     begin: Alignment.topLeft,
     end: Alignment.bottomRight,
   );
