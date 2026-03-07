@@ -2,19 +2,19 @@ import 'package:flutter/material.dart';
 
 class AppTheme {
   // ── Elegant Ice Blue Palette (inspired by anime character) ──
-  static const Color primaryBlue   = Color(0xFF4FC3F7); // Ice blue cerah elegan
-  static const Color lightBlue     = Color(0xFF81D4FA); // Ice blue muda lembut
-  static const Color accentBlue    = Color(0xFF29B6F6); // Blue vivid aksen
+  static const Color primaryBlue   = Color(0xFF00B4D8); // Ice blue cerah elegan
+  static const Color lightBlue     = Color(0xFF48CAE4); // Ice blue muda lembut
+  static const Color accentBlue    = Color(0xFF0096C7); // Blue vivid aksen
   static const Color darkBg        = Color(0xFF070C14); // Deep dark navy-black
   static const Color cardBg        = Color(0xFF0B1622); // Dark slate card
   static const Color cardBg2       = Color(0xFF0F1E2E); // Slightly lighter
   static const Color textPrimary   = Color(0xFFFFFFFF);
-  static const Color textSecondary = Color(0xFFB3E5FC); // Soft ice blue text
-  static const Color textMuted     = Color(0xFF64B5F6); // Blue-grey muted
+  static const Color textSecondary = Color(0xFF90E0EF); // Soft ice blue text
+  static const Color textMuted     = Color(0xFF48CAE4); // Blue-grey muted
 
   // Elegant ice blue gradient
   static const LinearGradient primaryGradient = LinearGradient(
-    colors: [Color(0xFF1565C0), Color(0xFF4FC3F7)],
+    colors: [Color(0xFF023E8A), Color(0xFF00B4D8)],
     begin: Alignment.topLeft,
     end: Alignment.bottomRight,
   );
@@ -33,7 +33,7 @@ class AppTheme {
 
   // Ice blue button gradient
   static const LinearGradient buttonGradient = LinearGradient(
-    colors: [Color(0xFF1E88E5), Color(0xFF4FC3F7)],
+    colors: [Color(0xFF0077B6), Color(0xFF00B4D8)],
     begin: Alignment.topLeft,
     end: Alignment.bottomRight,
   );
