@@ -462,15 +462,16 @@ class _MakerToolScreenState extends State<_MakerToolScreen> {
     // Validasi semua field
     for (final f in fields) {
       final key = f['key']!;
+      final label = f['label'] ?? key;
       final isImg = f['isImage'] == 'true';
       if (isImg) {
         if (_uploadedUrls[key] == null || _uploadedUrls[key]!.isEmpty) {
-          showError(context, '${f[');
+          showError(context, '$label wajib di-upload');
           return;
         }
       } else {
         if ((_ctrls[key]?.text ?? '').isEmpty) {
-          showError(context, '${f[');
+          showError(context, '$label wajib diisi');
           return;
         }
       }
